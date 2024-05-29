@@ -17,6 +17,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 100px;
 }
 .box {
     display: flex;
@@ -25,19 +27,26 @@ body {
 }
 
 .img {
-    width: 100px;
+    width: 90px;
     
 }
 
 
 #btn {
-    padding: 10px 40px;
+    padding: 10px 30px;
     background: none;
     border: 1px solid #fff;
     color: #fff;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    text-align: center;
+}
+#btn img {
+    width: 36px;
 }
 #btn:hover {
     /* background-color: white; */
@@ -47,8 +56,13 @@ body {
 }
 
 @media (max-width: 800px) {
+    .main {
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+    }
     .img {
-        width: 40px;
+        width: 38px;
     }
 }
 
