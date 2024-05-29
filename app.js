@@ -1,13 +1,15 @@
+let mainbox = document.querySelector('.main');
 let box = document.getElementById('box');
 let btn = document.querySelector('#btn');
-// let backimg = document.querySelector('.backimg');
+let mainimg = document.querySelector('#mainimg');
 // let card = [];
 // let backcard = [];
 
 let showCard = false;
 
 function showhideCard() {
-
+    mainimg.style.display = "none";
+    mainbox.style.flexDirection = "row";
     showCard = !showCard;
     box.innerHTML = '';
 
