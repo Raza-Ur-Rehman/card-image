@@ -27,11 +27,6 @@ body {
 .box img {
     width: 100px;
 }
-.btn {
-    width: 200px;
-    display: flex;
-    gap: 20px;
-}
 .btn button {
     padding: 10px 40px;
     background: none;
