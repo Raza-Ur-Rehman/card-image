@@ -26,8 +26,12 @@ body {
 
 .box img {
     width: 100px;
+    transition: 0.2s ease-in-out;
 }
-.btn button {
+.backimg {
+    display: none;
+}
+#btn {
     padding: 10px 40px;
     background: none;
     border: 1px solid #fff;
@@ -36,7 +40,7 @@ body {
     font-size: 14px;
     font-weight: 700;
 }
-.btn button:hover {
+#btn:hover {
     /* background-color: white; */
     /* color: #0A5508; */
 
