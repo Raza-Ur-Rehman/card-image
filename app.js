@@ -1,11 +1,15 @@
 let box = document.getElementById('box');
 let img = [];
+// let backImg = [];
 
-
-for (let i = 1; i <= 40; i++) { 
-    box.innerHTML += `<img onclick="showCard();" class="img" src="images/cardback.png" alt="Loading..">`;
-    img.push(box);
-    
+function hideCard() {
+    img.pop();
+    // for (let i = 1; i <= 40; i++) { 
+        
+    //     box.innerHTML += `<img class="img" src="images/cardback.png" alt="Loading..">`;
+    //     backimg.push(box);
+        
+    // }
 };
 function showCard() {
 for (let i = 1; i <= 13; i++) { 
@@ -33,9 +37,9 @@ for (let i = 1; i <= 13; i++) {
 };
 console.log(img);
 
-function hideCard() {
+// function hideCard() {
 
-};
+// };
 
 
 
