@@ -2,15 +2,15 @@ let box = document.getElementById('box');
 let img = [];
 // let backImg = [];
 
-function hideCard() {
-    img.pop();
-    // for (let i = 1; i <= 40; i++) { 
+// function hideCard() {
+//     img.pop();
+//     // for (let i = 1; i <= 40; i++) { 
         
-    //     box.innerHTML += `<img class="img" src="images/cardback.png" alt="Loading..">`;
-    //     backimg.push(box);
+//     //     box.innerHTML += `<img class="img" src="images/cardback.png" alt="Loading..">`;
+//     //     backimg.push(box);
         
-    // }
-};
+//     // }
+// };
 function showCard() {
 for (let i = 1; i <= 13; i++) { 
     box.innerHTML += `<img class="img" src="images/clubs_${[i]}.png" alt="Loading..">`;
